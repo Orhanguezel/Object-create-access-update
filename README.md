@@ -127,8 +127,9 @@ const person = {
 };
 
 // Solution:
-person.city = person.city.charAt(0).toUpperCase() + person.city.slice(1);
+person.city=person.city.slice(0,1).toUpperCase()+person.city.slice(1);
 console.log(person);
+
 ```
 
 Expected output:
